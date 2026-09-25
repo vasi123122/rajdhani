@@ -1,0 +1,31 @@
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Database connection
+database/database.php
+
+# Customer uploaded files
+/public/pages/uploads/
+/public/uploads/
+/uploads/
+
+# Database backups
+*.sql.gz
+*.dump
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
